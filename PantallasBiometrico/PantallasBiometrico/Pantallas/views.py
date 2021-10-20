@@ -68,7 +68,7 @@ def data1(request):
 
     context = {}
     # Pruebas
-    json_dic["id"] =0
+    json_dic["id"] =2
     json_dic["name"] = "Ing. Alexander Cruz"
     json_dic["sys"]["var0"] = "Cedula"
     json_dic["sys"]["var1"] = "Otro Dato"
