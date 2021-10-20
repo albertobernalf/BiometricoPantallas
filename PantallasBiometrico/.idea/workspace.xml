@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PantallasBiometrico/Pantallas/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/PantallasBiometrico/Pantallas/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Templates/inicio6.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/inicio6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +28,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Templates" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\EntornosPython\PantallasBiometrico\Templates" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -69,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634744687743</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Octavo Commit">
+      <created>1634748694582</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1634748694582</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -88,6 +99,7 @@
     <MESSAGE value="Quinto Commit" />
     <MESSAGE value="Sexto Commit" />
     <MESSAGE value="Septimo Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Septimo Commit" />
+    <MESSAGE value="Octavo Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Octavo Commit" />
   </component>
 </project>
