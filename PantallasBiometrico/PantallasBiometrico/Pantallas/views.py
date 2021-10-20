@@ -68,8 +68,10 @@ def data1(request):
 
     context = {}
     # Pruebas
-    json_dic["id"] = 0
+    json_dic["id"] =0
     json_dic["name"] = "Ing. Alexander Cruz"
+    json_dic["sys"]["var0"] = "Cedula"
+    json_dic["sys"]["var1"] = "Otro Dato"
 
     if json_dic["id"]  == 0:
         print("Opcion 0")
@@ -78,6 +80,9 @@ def data1(request):
     if json_dic["id"] == 1:
         print("Opcion 1")
         context['id_pi'] = json_dic["name"]
+        context['var0'] = json_dic["sys"]["var0"]
+        context['var1'] = json_dic["sys"]["var1"]
+
         return render(request, 'inicio5.html', context)
 
     if json_dic["id"] == 2:

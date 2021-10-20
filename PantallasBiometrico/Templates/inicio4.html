@@ -61,76 +61,74 @@
       setTimeout('Horario()',1000);}
 
 
+
+
+
+
+
     </script>
 </head>
 
-<body style="background-color:#E3F2FD " onLoad="Horario()">
+<!-- <body style="background-color:#E3F2FD " onLoad="Horario()"> -->
+<body onLoad="Horario()">
 <br>
-<br>
-<br>
-<div class="row">
+<center>
+    <div class="card-block" style="background-color:#E3F2FD">
+        <br>
 
-    <div class="col-md-1"></div>
-    <div class="col-md-1" style="background-color: lavender;">
+        <div class="row">
+            <div class="col-xs-5">          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+            <div class="col-xs-1" style="background-color: #E3F2FD;">
 
-        <figure class="figure">
-            <img src="{% static '/IMAGES/logo.jpg' %}" class="figure-img img-fluid rounded">
-            <figcaption class="figure-caption text-left">FUNDACION HOSPITAL SAN CARLOS
-            </figcaption>
-        </figure>
+                <figure class="figure">
 
-    </div>
-
-    <div class="col-md-1"></div>
-
-
-    <div class="col-md-6" style="background-color: lavenderblush;">
-        <div class="mx-auto" style="width: 1900px;height:300px;">
-            <p class="text-left">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mision:</p>
-
-
-            Brindar una experiencia humanizada e integral en servicio de salud,
-            a nuestros pacientes <br/> y sus familias, con altos estandares de
-            calidad mediante el mejor talento humano <br/> generando impacto
-            social y ambiental ...
-
-        </div>
-    </div>
-
-    <div class="col-md-1"></div>
-
-    <div class="col-md-1" style="background-color: lavender;">
-
-        <figure class="figure">
-            <img src="{% static '/IMAGES/manito.jpeg' %}" class="figure-img img-fluid rounded">
-            <figcaption class="figure-caption text-right">Hola
-            </figcaption>
-        </figure>
-
-        <div class="col-md-1"></div>
-    </div>
-
-</div>
-
-<div class="row">
-    <div class="container">
-        <center>
-            <div class="card-block">
-                <h2 id="FechaActual" name="FechaActual"></h2>
-                <br>
-                <h2 id="HoraActual" name="HoraActual"></h2>
-
+                    <img src="{% static '/IMAGES/logo.jpg' %}" class="figure-img img-fluid rounded" width="60"
+                         height="60">
+                    <figcaption class="figure-caption text-left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FUNDACION HOSPITAL SAN CARLOS
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-xs-5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;
 
             </div>
-        </center>
-    </div>
-</div>
+            <div class="col-xs-1" style="background-color: #E3F2FD;">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
+                <figure class="figure">
+                    <!-- manito.jpeg -->
+                    <img src="{% static '/IMAGES/mano2.jpg' %}" class="figure-img img-fluid rounded" width="60"
+                         height="60">
+                    <figcaption class="figure-caption text-right">Hola
+                    </figcaption>
+                </figure>
+            </div>
+
+            <br>
+            <br>
+        </div>
+        <br>
+
+    </div>
+
+    <div class="row">
+        <div class="container">
+            <br>
+
+            <center>
+                <div class="card-block">
+                    <h2 id="FechaActual" name="FechaActual"></h2>
+                    <br>
+                    <h2 id="HoraActual" name="HoraActual"></h2>
+
+
+                </div>
+            </center>
+        </div>
+    </div>
+</center>
 </body>
 </html>

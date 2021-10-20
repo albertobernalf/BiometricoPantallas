@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="428ca269-eb30-4c20-b939-838fb0a8b185" name="Default Changelist" comment="Four Commit">
+    <list default="true" id="428ca269-eb30-4c20-b939-838fb0a8b185" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/inicio.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/inicio1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/mitemplate.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/mitemplate2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/mitemplateOtro.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/salida2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PantallasBiometrico/Pantallas/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/PantallasBiometrico/Pantallas/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/inicio4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/inicio4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/inicio5.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/inicio5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/inicio6.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/inicio6.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +49,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634671668035</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Quinto Commit">
+      <created>1634673006614</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1634673006614</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -67,6 +72,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Four Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Four Commit" />
+    <MESSAGE value="Quinto Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Quinto Commit" />
   </component>
 </project>
