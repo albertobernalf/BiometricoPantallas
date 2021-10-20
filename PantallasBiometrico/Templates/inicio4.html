@@ -73,18 +73,19 @@
 <body onLoad="Horario()">
 <br>
 <center>
-    <div class="card-block" style="background-color:#E3F2FD">
+    <div class="card-block" style="background-color:#006400">
         <br>
 
         <div class="row">
             <div class="col-xs-5">          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
-            <div class="col-xs-1" style="background-color: #E3F2FD;">
+            <div class="col-xs-1" style="background-color: #006400;">
 
                 <figure class="figure">
 
                     <img src="{% static '/IMAGES/logo.jpg' %}" class="figure-img img-fluid rounded" width="60"
                          height="60">
-                    <figcaption class="figure-caption text-left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FUNDACION HOSPITAL SAN CARLOS
+                    <figcaption class="figure-caption text-left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <p style="color:#000000">FUNDACION HOSPITAL SAN CARLOS</p>
                     </figcaption>
                 </figure>
             </div>
@@ -94,7 +95,7 @@
                 &nbsp;&nbsp;&nbsp;&nbsp;
 
             </div>
-            <div class="col-xs-1" style="background-color: #E3F2FD;">
+            <div class="col-xs-1" style="background-color: #006400;">
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
@@ -102,7 +103,7 @@
                     <!-- manito.jpeg -->
                     <img src="{% static '/IMAGES/mano2.jpg' %}" class="figure-img img-fluid rounded" width="60"
                          height="60">
-                    <figcaption class="figure-caption text-right">Hola
+                    <figcaption class="figure-caption text-right"><p style="color:#000000">Hola</p>
                     </figcaption>
                 </figure>
             </div>
@@ -110,7 +111,7 @@
             <br>
             <br>
         </div>
-        <br>
+
 
     </div>
 
@@ -120,11 +121,9 @@
 
             <center>
                 <div class="card-block">
-                    <h2 id="FechaActual" name="FechaActual"></h2>
-                    <br>
-                    <h2 id="HoraActual" name="HoraActual"></h2>
+                    <h1 id="FechaActual" name="FechaActual"></h1>
 
-
+                    <h1 id="HoraActual" name="HoraActual"></h1>
                 </div>
             </center>
         </div>
