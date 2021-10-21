@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="428ca269-eb30-4c20-b939-838fb0a8b185" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Templates/inicio41.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/inicio51.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/inicio61.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PantallasBiometrico/Pantallas/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/PantallasBiometrico/Pantallas/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634762450323</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="decimo Commit">
+      <created>1634820035851</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1634820035852</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
