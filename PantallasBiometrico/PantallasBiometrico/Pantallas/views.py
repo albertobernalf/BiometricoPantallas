@@ -77,6 +77,7 @@ def data1(request):
         print("Opcion 0")
         return render(request, 'inicio41.html', context)
 
+
     if json_dic["id"] == 1:
         print("Opcion 1")
         context['id_pi'] = json_dic["name"]

@@ -63,6 +63,7 @@
 
 
 
+
     </script>
 </head>
 
@@ -70,86 +71,84 @@
 <body style="background-color:#4682B4" onLoad="Horario()">
 <br>
 <center>
-    <div class="row" style="background-color:#4682B4;width:650px;">
-        <div class="container">
-            <div class="col-xs-1"></div>
-            <div class="col-xs-4">
-                <!-- <div class="container"> -->
-                    <div class="card-block" style="background-color:#006400;width:700px;">
-                        <br>
 
-                        <div class="row">
-                            <div class="col-xs  -5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
-                            <div class="col-xs-1" style="background-color: #006400;">
+    <div class="row" style="background-color:#4682B4;width:450;">
 
-                                <figure class="figure">
+        <div class="col-xs-2" style="background-color:#4682B4;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
 
-                                    <img src="{% static '/IMAGES/logo.jpg' %}" class="figure-img img-fluid rounded"
-                                         width="60" height="60">
-                                    <figcaption class="figure-caption text-left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                        <p style="color:#000000">FUNDACION HOSPITAL SAN CARLOS</p>
-                                    </figcaption>
-                                </figure>
-                            </div>
-                            <div class="col-xs-5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                &nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="col-xs-10" style="background-color:#006400;width:350; "> &nbsp;&nbsp;&nbsp;</div>
 
-                            </div>
-                            <div class="col-xs-1" style="background-color: #006400;">
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="row" style="background-color:#006400;">
+            <div class="col-xs-5" style="background-color: #006400;"> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;</div>
+            <div class="col-xs-1" style="background-color: #006400;">
+                <br>
+                <figure class="figure">
 
-                                <figure class="figure">
-                                    <!-- manito.jpeg -->
-                                    <img src="{% static '/IMAGES/mano2.jpg' %}" class="figure-img img-fluid rounded"
-                                         width="60"
-                                         height="60">
-                                    <figcaption class="figure-caption text-right"><p style="color:#000000">Hola</p>
-                                    </figcaption>
-                                </figure>
-                            </div>
+                    <img src="{% static '/IMAGES/logo.jpg' %}" class="figure-img img-fluid rounded"
+                         width="60" height="60">
+                    <figcaption class="figure-caption text-left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <p style="color:#000000">FUNDACION HOSPITAL SAN CARLOS</p>
+                    </figcaption>
+                </figure>
+
+            </div>
+            <div class="col-xs-4" style="background-color: #006400;"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+            </div>
+            <div class="col-xs-1" style="background-color: #006400;"><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <figure class="figure">
+                    <!-- manito.jpeg -->
+                    <img src="{% static '/IMAGES/mano2.jpg' %}" class="figure-img img-fluid rounded"
+                         width="60"
+                         height="60">
+                    <figcaption class="figure-caption text-right"><p style="color:#000000">Hola</p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-xs-1" style="background-color: #006400;"><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            </div>
+
+        </div>
+
+    </div>
 
 
+    <!-- segunda parte -->
+
+    <center>
+        <div class="row" style="background-color:#FFFFFF;width:605px;">
+            <div class="container">
+                <div class="col-xs-5"></div>
+                <div class="col-xs-7">
+
+
+                    <div class="row">
+                        <div class="container">
                             <br>
-                            <br>
+
+                            <center>
+                                <div class="card-block">
+                                    <h1 id="FechaActual" name="FechaActual"></h1>
+
+                                    <h1 id="HoraActual" name="HoraActual"></h1>
+                                    </br>
+                                </div>
+                            </center>
                         </div>
-
                     </div>
-                <!-- </div> -->
-            </div>
-        </div>
-    </div>
-    </div>
-    </div>
-
-
-    <div class="row" style="background-color:#FFFFFF;width:605px;">
-        <div class="container">
-            <div class="col-xs-5"></div>
-            <div class="col-xs-7">
-
-
-                <div class="row">
-                    <!-- <div class="container">  -->
-                    <br>
-
-                    <center>
-                        <div class="card-block">
-                            <h1 id="FechaActual" name="FechaActual"></h1>
-
-                            <h1 id="HoraActual" name="HoraActual"></h1>
-                            </br>
-                        </div>
-                    </center>
                 </div>
-                <!-- </div> -->
             </div>
         </div>
-    </div>
 
 
-</center>
+    </center>
+
+
 </body>
 </html>
